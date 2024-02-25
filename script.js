@@ -30,6 +30,7 @@ fetchAndShowStudent();
 
 //Read to show gryffindorstudents
 function showAllGryffindor() {
+
   gryffindorContainer.innerHTML = "";
 
   hogwartsStudents.forEach((gryffindorMember, index) => {
@@ -56,3 +57,4 @@ function deleteStudentGryffindor(index) {
   console.log("after deletion", hogwartsStudents);
   showAllGryffindor();
 }
+
